@@ -1,6 +1,11 @@
-sentence-transformers
-pinecone
-python-dotenv
-uvicorn
-fastapi
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+torch==2.10.0+cpu
+sentence-transformers==5.2.3
+transformers==5.3.0
+
+pinecone==8.1.0
+python-dotenv==1.2.2
+fastapi==0.135.1
+uvicorn==0.41.0
 
